@@ -1,0 +1,136 @@
+/* Reset and global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grid Background */
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background:
+          linear-gradient(0deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+
+
+/* Navbar */
+nav {
+  background: #007bff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+section p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button.yellow {
+  background: #ffd700;
+  color: #333;
+}
+
+button.yellow:hover {
+  background: #e0b800;
+}
+
+button.blue {
+  background: #007bff;
+  color: white;
+}
+
+button.blue:hover {
+  background: #0056b3;
+}
+
+/* Grid Layout for Projects/Contact */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem;
+  background: #f1f1f1;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

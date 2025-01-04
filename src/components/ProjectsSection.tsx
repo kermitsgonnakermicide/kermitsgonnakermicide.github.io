@@ -13,7 +13,7 @@ export function ProjectsSection() {
       <div className="flex-1 grid grid-rows-4 gap-[2%]">
         <ProjectBox 
           number={1}
-          description="placeholder!!"
+          description="A revolutionary web application that transforms how users interact with data visualization."
           githubUrl="https://github.com/yourusername/project1"
         />
         <ProjectBox 

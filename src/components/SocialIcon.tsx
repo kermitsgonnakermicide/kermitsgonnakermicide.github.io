@@ -12,9 +12,9 @@ export function SocialIcon({ href, Icon }: SocialIconProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-portfolio-blue hover:text-portfolio-yellow transition-colors"
+      className="text-portfolio-blue hover:text-portfolio-yellow transition-colors p-4"
     >
-      <Icon size={32} />
+      <Icon size={48} strokeWidth={1.5} />
     </a>
   );
 }

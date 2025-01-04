@@ -1,6 +1,8 @@
 import React from 'react';
 import { SocialBar } from './components/SocialBar';
 import { ProjectsSection } from './components/ProjectsSection';
+import { NameSection } from './components/NameSection';
+import { AboutSection } from './components/AboutSection';
 
 export default function App() {
   return (
@@ -9,6 +11,12 @@ export default function App() {
         <div className="w-full flex gap-4">
           {/* Main content box */}
           <div className="flex-1 min-h-[600px] bg-portfolio-blue/90 rounded-3xl shadow-2xl relative p-8">
+            {/* Name section */}
+            <NameSection />
+            
+            {/* About section */}
+            <AboutSection />
+            
             {/* Social bar */}
             <SocialBar />
           </div>

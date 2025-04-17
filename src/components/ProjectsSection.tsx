@@ -13,22 +13,22 @@ export function ProjectsSection() {
       <div className="flex-1 grid grid-rows-4 gap-[2%]">
         <ProjectBox 
           number={1}
-          description="bachao mujhe mkc."
+          description="something"
           githubUrl="https://github.com/kermitsgonnakermicide/project1"
         />
         <ProjectBox 
           number={2}
-          description="puch mat."
+          description="something"
           githubUrl="https://github.com/kermitsgonnakermicide/project2"
         />
         <ProjectBox 
           number={3}
-          description="abhi nahi bana."
+          description="something"
           githubUrl="https://github.com/kermitsgonnakermicide/project3"
         />
         <ProjectBox 
           number={4}
-          description="bhai pata nahi."
+          description="something"
           githubUrl="https://github.com/kermitsgonnakermicide/project4"
         />
       </div>

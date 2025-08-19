@@ -6,11 +6,11 @@ export function ProjectsSection() {
     <div className="h-full p-[3%] flex flex-col">
       {/* Title box */}
       <div className="bg-portfolio-cream rounded-2xl p-[3%] mb-[2%]">
-        <h1 className="text-2xl font-bold text-center">My Projects</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-center">My Projects</h1>
       </div>
 
       {/* Project boxes container with reduced spacing */}
-      <div className="flex-1 grid grid-rows-3 gap-[2%]">
+      <div className="flex-1 grid gap-3 md:grid-rows-3 md:gap-[2%]">
         <ProjectBox 
           project_name={"Spooderbot"}
           description="Spooderbot is a quadraped spider-type robot running on a Raspbery Pi 5, with dual picam stereo vision capabilities and dynamic walking. "

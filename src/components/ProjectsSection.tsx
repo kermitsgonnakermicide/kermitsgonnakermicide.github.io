@@ -10,26 +10,21 @@ export function ProjectsSection() {
       </div>
 
       {/* Project boxes container with reduced spacing */}
-      <div className="flex-1 grid grid-rows-4 gap-[2%]">
+      <div className="flex-1 grid grid-rows-3 gap-[2%]">
         <ProjectBox 
-          number={1}
-          description="A revolutionary web application that transforms how users interact with data visualization."
-          githubUrl="https://github.com/yourusername/project1"
+          project_name={"Spooderbot"}
+          description="Spooderbot is a quadraped spider-type robot running on a Raspbery Pi 5, with dual picam stereo vision capabilities and dynamic walking. "
+          githubUrl="https://github.com/kermitsgonnakermicide/spooderbot"
         />
         <ProjectBox 
-          number={2}
-          description="An AI-powered tool that helps developers write better code faster."
-          githubUrl="https://github.com/yourusername/project2"
+          project_name={"Robodog"}
+          description="Robodog was the natural evolution of Spooderbot. It features a Raspberry Pi 5, along with a LiDAR and a proper stereo camera all running through ROS2. This project is a WIP at the moment."
+          githubUrl="https://github.com/kermitsgonnakermicide/robodog"
         />
         <ProjectBox 
-          number={3}
-          description="A modern e-commerce platform built with cutting-edge technologies."
-          githubUrl="https://github.com/yourusername/project3"
-        />
-        <ProjectBox 
-          number={4}
-          description="A cross-platform mobile application for seamless task management."
-          githubUrl="https://github.com/yourusername/project4"
+          project_name={"3D Printer"}
+          description="This CoreXY 3D Printer was my first foray into making my own 3d printer. It features a large build volume, a belt-driven XY gantry and triple Z-axis motors with a BTT Octopus motherboard. Again, this project is a WIP at the moment."
+          githubUrl="https://github.com/kermitsgonnakermicide/3Dprinter"
         />
       </div>
     </div>

@@ -9,15 +9,15 @@ export default function App() {
     <div className="min-h-screen bg-white grid-bg relative">
       <div className="absolute inset-0 flex items-center justify-center px-[10%]">
         <div className="w-full flex gap-4">
-          {/* Main content box */}
+          {/* main content box */}
           <div className="flex-1 min-h-[600px] bg-portfolio-blue/90 rounded-3xl shadow-2xl relative p-8">
-            {/* Name section */}
+            {/* name section */}
             <NameSection />
             
             {/* About section */}
             <AboutSection />
             
-            {/* Social bar */}
+            {/* social bar(yuck, who even needs a social life)*/}
             <SocialBar />
           </div>
 

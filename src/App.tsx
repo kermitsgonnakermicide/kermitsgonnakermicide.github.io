@@ -26,6 +26,8 @@ export default function App() {
             
             {/* social bar(yuck, who even needs a social life)*/}
             <div className="mb-[3%]">
+              <SocialBar />
+            </div>
           </div>
 
           {/* Yellow accent box */}
@@ -36,6 +38,4 @@ export default function App() {
       </div>
     </div>
   );
-}
-  )
 }

@@ -10,9 +10,9 @@ export default function App() {
       <div className="px-4 py-6 md:absolute md:inset-0 md:flex md:items-center md:justify-center md:px-[10%]">
         <div className="w-full flex flex-col gap-4 md:flex-row">
           {/* main content box */}
-          <div className="flex-1 min-h-[400px] md:min-h-[600px] bg-portfolio-blue/90 rounded-3xl shadow-2xl relative p-[3%]">
+          <div className="flex-1 min-h-[400px] md:min-h-[600px] bg-portfolio-blue/90 rounded-3xl shadow-2xl relative p-[3%] flex flex-col">
             {/* name section */}
-            <div className="mt-[3%]">
+            <div>
               <NameSection />
             </div>
             
@@ -21,8 +21,11 @@ export default function App() {
               <AboutSection />
             </div>
             
+            {/* Spacer to push social bar to bottom */}
+            <div className="flex-1"></div>
+            
             {/* social bar(yuck, who even needs a social life)*/}
-            <SocialBar />
+            <div className="mb-[3%]">
           </div>
 
           {/* Yellow accent box */}
